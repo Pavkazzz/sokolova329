@@ -1,0 +1,144 @@
+object Form_viewer: TForm_viewer
+  Left = 0
+  Top = 0
+  Caption = #1056#1077#1076#1072#1082#1090#1086#1088
+  ClientHeight = 679
+  ClientWidth = 761
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnActivate = FormActivate
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 13
+  object sLabelFX1: TsLabelFX
+    Left = 72
+    Top = 8
+    Width = 136
+    Height = 15
+    Alignment = taCenter
+    BiDiMode = bdRightToLeftNoAlign
+    Caption = #1055#1086#1083#1091#1095#1080#1074#1096#1080#1077#1089#1103' '#1073#1083#1086#1082'-'#1089#1093#1077#1084#1072
+    ParentBiDiMode = False
+    ParentFont = False
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clBtnFace
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    Angle = 0
+    Shadow.OffsetKeeper.LeftTop = 0
+    Shadow.OffsetKeeper.RightBottom = 2
+  end
+  object Image1: TImage
+    Left = 16
+    Top = 29
+    Width = 300
+    Height = 642
+    OnMouseDown = Image1MouseDown
+  end
+  object sRichEdit1: TsRichEdit
+    Left = 367
+    Top = 29
+    Width = 283
+    Height = 642
+    Color = 3355443
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = 15724527
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 0
+    WantTabs = True
+    OnKeyUp = sRichEdit1KeyUp
+    BoundLabel.Indent = 0
+    BoundLabel.Font.Charset = DEFAULT_CHARSET
+    BoundLabel.Font.Color = clWindowText
+    BoundLabel.Font.Height = -11
+    BoundLabel.Font.Name = 'Tahoma'
+    BoundLabel.Font.Style = []
+    BoundLabel.Layout = sclLeft
+    BoundLabel.MaxWidth = 0
+    BoundLabel.UseSkinColor = True
+    SkinData.SkinSection = 'EDIT'
+  end
+  object sButton1: TsButton
+    Left = 656
+    Top = 32
+    Width = 91
+    Height = 25
+    Caption = #1057#1086#1093#1088#1072#1085#1080#1090#1100' '
+    TabOrder = 1
+    TabStop = False
+    OnClick = sButton1Click
+    SkinData.SkinSection = 'BUTTON'
+  end
+  object sButton2: TsButton
+    Left = 656
+    Top = 121
+    Width = 91
+    Height = 25
+    Caption = #1056#1077#1076#1072#1082#1090#1080#1088#1086#1074#1072#1090#1100
+    TabOrder = 2
+    TabStop = False
+    Visible = False
+    OnClick = Button2Click
+    SkinData.SkinSection = 'BUTTON'
+  end
+  object sButton3: TsButton
+    Left = 656
+    Top = 79
+    Width = 91
+    Height = 25
+    Caption = #1054#1090#1084#1077#1085#1080#1090#1100
+    TabOrder = 3
+    TabStop = False
+    OnClick = sButton3Click
+    SkinData.SkinSection = 'BUTTON'
+  end
+  object sButton4: TsButton
+    Left = 327
+    Top = 48
+    Width = 34
+    Height = 25
+    Caption = '+'
+    TabOrder = 4
+    TabStop = False
+    OnClick = sButton4Click
+    SkinData.SkinSection = 'BUTTON'
+  end
+  object sButton5: TsButton
+    Left = 327
+    Top = 79
+    Width = 34
+    Height = 25
+    Caption = '-'
+    TabOrder = 5
+    TabStop = False
+    OnClick = sButton5Click
+    SkinData.SkinSection = 'BUTTON'
+  end
+  object RichEdit1: TRichEdit
+    Left = 672
+    Top = 176
+    Width = 185
+    Height = 473
+    Font.Charset = RUSSIAN_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 6
+    Visible = False
+  end
+  object SaveDialog1: TSaveDialog
+    Left = 656
+    Top = 160
+  end
+end

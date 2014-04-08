@@ -1,0 +1,6 @@
+inpt BITMAP "images_final\\Ввод.bmp"
+_rct BITMAP "images_final\\действие.bmp"
+_bgn BITMAP "images_final\\начало.bmp"
+_if_ BITMAP "images_final\\Условие.bmp"
+_for BITMAP "images_final\\цикл.bmp"
+conn BITMAP "images_final\\conn.bmp"
